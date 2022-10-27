@@ -1,0 +1,132 @@
+*
+::after
+::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F2EAE2;
+    width: 100vw;
+    height: 100vw;
+}
+
+/*mobile version of the card*/
+
+.card-container{
+    width: 91vw;
+    background-color: #FFFFFF;
+    margin: 28px 16px 28px 16px;
+    border: none;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "picture"
+    "information";
+    
+}
+
+picture-part{
+    grid-area: picture;
+}
+
+div .information-part{
+    grid-area: information;
+}
+
+img{
+    position: relative;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    image-rendering: crisp-edges;
+}
+
+h2{
+   margin-top: 26px;
+   margin-left: 6.4%;
+   font-family: "montserrat";
+   font-weight: 500;
+   font-size: 12px;
+   line-height: 15px;
+   letter-spacing: 5px;
+   color: #6C7289;
+}
+
+h1{
+    width: 79vw;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Fraunces';
+    font-weight: 700; 
+    font-size: 32px;
+    line-height: 32px; 
+    font-style: normal;
+    color: #1C232B;
+}
+
+.description{
+    width: 79vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+    font-family: "montserrat";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: #6C7289;
+}
+
+.price{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+
+.actual-price{
+    width: 127px;
+    margin-right: 16px;
+    margin-left: 24px;
+    font-family: 'Fraunces';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color: #3D8168;
+}
+
+.older-price{
+    align-self: center;
+    font-family: 'montserrat';
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: line-through;
+    color: #6C7289;
+    margin-left: 0%;
+    padding-left: 0;
+    line-height: 23px;
+}
+
+button{
+    width: 78%;
+    height: 46px;
+    margin-right: 11%;
+    margin-left: 11%;
+    background-color: #3D8168;
+    border: none;
+    margin-bottom: 24px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'montserrat';
+    font-weight: 700;
+    font-size: 14px;
+}
+
+footer{
+   color: #3D8168;
+   text-align: center;
+   font-family: "montserrat";
+   font-size: 15px;
+   font-weight: bold;
+}
